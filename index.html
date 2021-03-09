@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name= "viewport" content= "width=device-width initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="css/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@600&display=swap" rel="stylesheet" />
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Pomodoro</h2>
+        <span>Técnica Pomodoro é um método de gerenciamento de tempo desenvolvido por Francesco Cirillo no final dos
+             anos 1980. A técnica consiste na utilização de um cronômetro para dividir o trabalho em períodos de 
+             25 minutos, separados por breves intervalos.
+              A técnica deriva seu nome da palavra italiana pomodoro (tomate), como referência ao popular cronômetro 
+              nômico na forma dessa fruta. O método é baseado na ideia de que pausas frequentes podem aumentar a 
+              agilidade mental</span>
+    <div class="countdownContainer">
+        <div>
+            <span id="minutes"></span>
+            <span>5</span>
+        </div>
+        <span>:</span>
+        <div>
+            <span>0</span>
+            <span>0</span>
+        </div>
+    </div>
+    <button type="button" class="countdownButton" onclick="countDown()">Iniciar</button>
+</body>
+</html>
